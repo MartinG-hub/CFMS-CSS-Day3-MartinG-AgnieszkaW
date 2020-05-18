@@ -1,5 +1,6 @@
 a {
 	text-decoration: none;
+
 }
 
 li{
@@ -7,3 +8,35 @@ li{
 	margin: 20px;
 }
 
+.OnlineCheat{
+	color: red;
+	font-size: 20px;
+}
+
+.OnlineCheat:hover{
+	color:blue;
+}
+
+.FlexboxCheat{
+	transition: 
+
+}
+.FlexboxCheat:hover{
+
+	width: 400px;
+}
+
+
+div {
+   width: 150px;
+   height: 150px;
+   background: blue;
+   border-radius: 5px;
+   transition: width 500ms, height 500ms, background 2s;
+}
+
+div:hover{
+	width: 300px;
+	height: 300px;
+	background: red;
+}
