@@ -1,0 +1,22 @@
+.main1heading {
+  display: flex;
+  flex-flow: row; /*default setting */
+  justify-content: space-between;
+  /*flex-wrap: wrap;
+  margin: 0 0 3em 0;
+  padding: 2px;*/
+}
+
+.main1data{
+  display: flex;
+  flex-flow: row; /*default setting */
+  justify-content: space-between;
+}
+  /*flex-wrap: wrap;
+}
+*/
+
+.main1data1{
+	display: flex;
+
+}
