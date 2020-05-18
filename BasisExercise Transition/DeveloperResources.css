@@ -27,16 +27,33 @@ li{
 }
 
 
-div {
+#color-box {
    width: 150px;
    height: 150px;
-   background: blue;
-   border-radius: 5px;
-   transition: width 500ms, height 500ms, background 2s;
+   margin-bottom: 10px;
+   background-color: blue;
+   
+   transition: width 500ms, height 500ms, background-color 1s, border-radius 700ms;
 }
 
-div:hover{
-	width: 300px;
-	height: 300px;
-	background: red;
+#color-box:hover {
+	width: 200px;
+    height: 200px;
+    border-radius: 15px;
+	background-color: red;
+	
+}
+
+#rotation-box {
+   width: 150px;
+   height: 150px;
+   background-color: black;
+   border-radius: 5px;
+   transition:  background-color 700ms, transform 700ms;
+}
+
+#rotation-box:hover {
+	
+	background-color: white;
+	transform: rotate(360deg);
 }
